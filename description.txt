@@ -1,0 +1,11 @@
+Class 3 lab 1
+
+With a partner, tackle the following problems by first determining what needs to be done using an IPO chart, then create pseudocode to match.
+
+The Waukesha Public Library charges a late fee of $0.25 per day for books and $0.50 per day for DVDs. 
+Design an app that will charge a library patron based on the number of items they are returning late.
+
+Class 3 Lab 2
+
+You and your coworkers frequently order a pizza to share for lunch. A basic cheese pizza costs $15.00, plus $1.25 per topping. 
+Design an app that will help you and your coworkers equally split the cost of a pizza.
