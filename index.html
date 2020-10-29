@@ -6,20 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title> Class 3 Lab 1 and 2</title>
-    <script src="code.js"></script>
+    <style>
+        .output {
+            display: none;
+        }
+    </style>
+    <!-- <script src="code.js"></script> -->
 
 </head>
 
 <body>
-    <h4>Lab 1</h4>
+    <!-- <h4>Lab 1</h4>
     <h3>The Waukesha Public Library</h3>
     <button onclick="libraryLateFee()">Show Time and Cost</button>
 
     <h4>Lab 2</h4>
     <h3>Lunch cost split</h3>
-    <button onclick="costEqualSpliter()">Show Time and Cost</button>
+    <button onclick="costEqualSpliter()">Show Time and Cost</button> -->
 
+    <h3>The Waukesha Public Library</h3>
+
+    <label for="daysLate">How many days item was late?</label>
+    <input type="number" id="daysLate">
+
+    <br>
+    <label for="booksLate">How many books was late?</label>
+    <input type="number" id="booksLate">
+
+    <br>
+    <label for="dvdsLate">How many DVDs was late?</label>
+    <input type="number" id="dvdsLate">
+
+    <br>
+
+    <button id="libraryLateFee">Show total fee</button>
+
+    <p class="output"> Your total fee will be <span id="totalFee"></span></p>
+
+
+    <!-- Lunch app -->
+    <h3>Lunch cost split</h3>
+
+    <label for="numberOfPizzas">How many pizzas would you like to order?</label>
+    <input type="number" id="numberOfPizzas">
+
+    <br>
+    <label for="numbOfTopings">How many toppings would you like?</label>
+    <input type="number" id="numbOfTopings">
+
+    <br>
+    <label for="numberOfCoworkers">How many koworkers will be eating lunch?</label>
+    <input type="number" id="numberOfCoworkers">
+
+    <br>
+
+    <button id="splitCost">Split cost</button>
+
+
+    <p class="output"> Your split will be <span id="costOutput"></span></p>
 
 </body>
+
+<script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="code.js"></script>
 
 </html>
